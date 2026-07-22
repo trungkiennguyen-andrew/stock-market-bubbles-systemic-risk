@@ -1,6 +1,6 @@
 # Coding Sample: Stock Market Bubbles and Bank Systemic Risk
 
-**Author:** Nguyen Trung Kien\
+**Author:** Nguyen Trung Kien
 **Software:** Stata 17 or later
 
 ## Overview
@@ -70,7 +70,7 @@ Within each retained episode, the boom phase runs from episode inception through
 
 Bubble = Boom + Bust
 
-The classification is implemented algorithmically; no bubble, boom, or bust dates are assigned manually. The full VN-Index series produces two retained episodes: 2006Q4--2007Q3 and 2017Q3--2018Q3. Because the bank-level regression sample begins in 2009Q1, only the second episode enters the regression analysis.
+The classification is implemented algorithmically; no bubble, boom, or bust dates are assigned manually. The full VN-Index series produces two retained episodes: 2006Q4-2007Q3 and 2017Q3-2018Q3. Because the bank-level regression sample begins in 2009Q1, only the second episode enters the regression analysis.
 
 ### Bank-Level Systemic Risk
 
@@ -114,5 +114,5 @@ Regression estimates and hypothesis-test results are displayed in Stata's Result
 
 ## Authorship and Methodological References
 
-The do-file was prepared by Nguyen Trung Kien for the accompanying undergraduate thesis. The empirical procedures draw on established methods for BSADF bubble dating, peak-based boom--bust classification, and CoVaR estimation. Full methodological references and discussion are provided in the thesis.
+The do-file was prepared by Nguyen Trung Kien for the accompanying undergraduate thesis. The empirical procedures draw on established methods for BSADF bubble dating, peak-based boom-bust classification, and CoVaR estimation. Full methodological references and discussion are provided in the thesis.
 
