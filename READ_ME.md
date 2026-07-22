@@ -90,7 +90,7 @@ The do-file also reports:
 
 -   a Wald test of equality between the boom- and bust-phase coefficients;
 -   specifications with seasonal fixed effects;
--   regressions excluding 2020Q1--2021Q4; and
+-   regressions excluding 2020Q1-2021Q4; and
 -   regressions that retain the full sample and include a COVID-period indicator.
 
 ## Output Files
